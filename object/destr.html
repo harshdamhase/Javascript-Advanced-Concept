@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <script>
         const obj = {
@@ -19,6 +21,19 @@
 
         const {AddressLocal: add} = obj;
         console.log(add)
+
+        const obj1 = {
+            "name": "abcd",
+            "age": 22,
+            "address": "pune"
+        }
+        const { name, age, address } = obj1;
+        // console.log(obj1);
+
+        console.log(name);
+        console.log(age);
+        console.log(address)
     </script>
 </body>
+
 </html>
